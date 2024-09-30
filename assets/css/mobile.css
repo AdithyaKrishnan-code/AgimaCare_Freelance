@@ -1619,7 +1619,7 @@
     }
 
     .service-box-item figure img {
-        width: 99%;
+        width: 50px;
     }
 
     .service-box-item p {
@@ -2782,14 +2782,14 @@
 
     .image_size{
 
-        height: 64px;
-        width: 100px;
+        height: 64%;
+        width: 31%;
     }
     
     .coding_icon{
     
-        width: 75px;
-        height: 58px;
+        width: 75%;
+        height: 50px;
     }
     
     .footer_logo{
