@@ -2028,7 +2028,7 @@
 
     @keyframes spineer {
         from {
-            box-shadow: 0 0 0 0 rgb(36, 63, 250, .99)
+            box-shadow: 0 0 0 0 rgba(182, 182, 184, 0.99)
         }
 
         to {

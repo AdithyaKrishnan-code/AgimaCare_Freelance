@@ -1606,13 +1606,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .copyright-con {
     padding: 20px;
-    background: #0d1f42;
+    background: black;
 }
 
 .copyright-con p {
     font-size: 14px;
     line-height: 18px;
-    color: #a2b1cc;
+    color: #f7f7f8;
 }
 
 /* ****footer section style end**** */
