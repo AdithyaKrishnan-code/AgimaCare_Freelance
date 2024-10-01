@@ -1008,6 +1008,7 @@
     .navbar-collapse .header-contact {
         display: block !important;
         text-align: center;
+        background: white;
     }
 
     .navbar-collapse .phone {
@@ -1564,6 +1565,7 @@
 
     .header-con .navbar-expand-lg .navbar-nav {
         gap: 14px;
+        background: white;
     }
 
     .search-field {
@@ -2044,6 +2046,8 @@
 
     .search-field {
         padding: 10px 0;
+        filter: brightness(0) saturate(0%) invert(0%) sepia(0%) hue-rotate(0deg) contrast(100%);
+
     }
 
     .patients-reviews-sec .owl-carousel::after {
