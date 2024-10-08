@@ -820,7 +820,7 @@
     }
 
     .category-details figure img {
-        width: 28px;
+        width: 46px;
     }
 
     .category-details {
@@ -2806,5 +2806,12 @@
     
         width: 73px;
         height: 73px;
+    }
+    .coding_icon_services {
+
+        width: 57px;
+        height: 46px;
+        filter: brightness(100%) saturate(100%) invert(100%) sepia(0%) contrast(100%);
+    
     }
 }

@@ -1633,7 +1633,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .sub-banner-con::before {
     content: "";
-    background: #c1c1c1b8;
+    background: #e8e7e7b8;
     width: 100%;
     height: 100%;
     opacity: .8;
