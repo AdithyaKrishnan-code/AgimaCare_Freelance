@@ -1626,7 +1626,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* about us page start */
 /* sub banner section style start*/
 .sub-banner-con {
-    background: url(../images/happy-white-haired-medical-doctor-with-stethoscope-2023-11-27-05-29-23-utc.jpg) no-repeat center;
+    /* background: url(../images/happy-white-haired-medical-doctor-with-stethoscope-2023-11-27-05-29-23-utc.jpg) no-repeat center; */
+    background-image: url("../images/happy-white-haired-medical-doctor-with-stethoscope-2023-11-27-05-29-23-utc.jpg");
     background-size: cover;
     background-position-y: 0%;
 }
@@ -2623,4 +2624,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .hover_text_read_more:hover {
 
     color: #000000;
+}
+
+#image_blog{
+
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
 }

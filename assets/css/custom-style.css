@@ -568,7 +568,7 @@ a.item-link{margin-top: 10px; display: inline-block}
     background: var(--primary-color);
     transition: all 0.3s ease-in-out;
     padding: 10px 15px 40px 10px;
-    width: 104%;
+    width: 165%;
     margin-left: -45px;
 }
 .singleblog-section .main-box .singleblog-image1{
@@ -585,7 +585,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .main-box .content1 i{
     font-size: 14px;
-    color: var(--button-color);
+    color: black;
     margin-right: 4px;
     margin-bottom: 32px;
 }
@@ -600,7 +600,7 @@ a.item-link{margin-top: 10px; display: inline-block}
     margin-bottom: 35px;
 }
 .singleblog-section .main-box .content2{
-    background: var(--e-global-color-bright-blue);
+    background: black;
     padding: 20px 32px 32px;
     border-radius: 10px;
     margin-bottom: 34px;

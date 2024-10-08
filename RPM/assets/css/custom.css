@@ -809,7 +809,7 @@ body {
 
 .submit-btn a {
     text-decoration: none;
-    color: var(--white-color);
+    color: black;
     transition: .3s ease-in-out;
 }
 
@@ -2044,7 +2044,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .category-details a {
     font-weight: 500;
     font-size: 15px;
-    color: var(--accent);
+    color: black;
     display: inline-block;
     margin-top: auto;
 }
@@ -2601,6 +2601,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 57px;
     height: 54px;
     filter: brightness(100%) saturate(100%) invert(100%) sepia(0%) contrast(100%);
+    background-position: center;
 
 }
 
