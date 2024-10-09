@@ -585,7 +585,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .main-box .content1 i{
     font-size: 14px;
-    color: var(--button-color);
+    color: black;
     margin-right: 4px;
     margin-bottom: 32px;
 }
@@ -635,7 +635,7 @@ a.item-link{margin-top: 10px; display: inline-block}
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    background: var(--button-color);
+    background: black;
     color: #ffffff;
     border-radius: 8px;
     padding: 10px 18px;
@@ -653,8 +653,8 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .content4 .tag .button:hover{
     background: var(--primary-color);
-	border-color: var(--accent);
-	color: var(--accent);
+	border-color: black;
+	color: black;
 }
 .singleblog-section .content4 .icon{
     position: relative;
@@ -772,7 +772,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .content6:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
     width: 92%;
     height: 6px;
@@ -783,9 +783,9 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .content6 h4:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
-    width: 23%;
+    width: 95%;
     height: 45px;
     left: 23px;
 }
@@ -856,7 +856,7 @@ a.item-link{margin-top: 10px; display: inline-block}
     outline: none;
     overflow-y: auto;
 	border: none;
-    border-bottom: 1px solid var(--accent);
+    border-bottom: 1px solid black;
 }
 .singleblog-section .content7 input {
     font-size: 16px;
@@ -869,7 +869,7 @@ a.item-link{margin-top: 10px; display: inline-block}
     overflow: visible;
     outline: none;
 	border: none;
-    border-bottom: 1px solid var(--accent);
+    border-bottom: 1px solid black;
 }
 .singleblog-section .content7 .text-mb {
     margin-bottom: 26px;
@@ -965,7 +965,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .box2 h5:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
     width: 84%;
     height: 45px;
@@ -989,7 +989,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .box3 h5:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
     width: 84%;
     height: 45px;
@@ -1047,7 +1047,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 .singleblog-section .box3 .social-icons ul li .social-networks:hover {
     background: var(--button-color);
     
-    border: 1px solid var(--button-color);
+    border: 1px solid black;
     transform: translateY(-5px);
 }
 .singleblog-section .box4 h5{
@@ -1055,7 +1055,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .box4 h5:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
     width: 84%;
     height: 45px;
@@ -1099,7 +1099,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .box5 h5:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
     width: 84%;
     height: 45px;
@@ -1111,7 +1111,7 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 .singleblog-section .box5 .feed:after{
     content: "";
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: 1px solid black;
     position: absolute;
     width: 84%;
     height: 125px;
@@ -1139,10 +1139,10 @@ a.item-link{margin-top: 10px; display: inline-block}
     transition: all 0.3s ease-in-out;
     position: relative;
     z-index: 1;
-    color: var(--accent);
+    color: grey;
 }
 .singleblog-section .box5 .feed a:hover{
-    color: var(--text-color);
+    color: black;
 }
 .blogpage-section a{
     text-decoration: none;
