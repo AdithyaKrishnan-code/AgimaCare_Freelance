@@ -2303,8 +2303,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .contact-links-box:hover {
-    border-color: var(--accent);
-    box-shadow: 2px 2px 52px 6px rgb(36 63 250 / 13%);
+    border-color: black;
+    box-shadow: 2px 2px 52px 6px rgba(81, 81, 82, 0.13);
 }
 
 .contact-img-box {
@@ -2327,7 +2327,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-weight: 500;
     display: inline-block;
     margin-top: auto;
-    color: var(--secondary--color);
+    color: black;
 }
 
 .contact-link ul li a {
