@@ -1627,7 +1627,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* sub banner section style start*/
 .sub-banner-con {
     /* background: url(../images/happy-white-haired-medical-doctor-with-stethoscope-2023-11-27-05-29-23-utc.jpg) no-repeat center; */
-    background-image: url("../images/happy-white-haired-medical-doctor-with-stethoscope-2023-11-27-05-29-23-utc.jpg");
+    background-image: url("../images/treatment-img.jpg");
     background-size: cover;
     background-position-y: 0%;
 }
