@@ -2605,6 +2605,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
     width: 73px;
     height: 73px;
+    /* filter: grayscale(100%) brightness(100%) contrast(100%); */
+
 }
 
 .phone_image {
