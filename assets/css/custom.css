@@ -144,8 +144,10 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--white-color);
+    color:black;
     transition: .4s ease-in-out;
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+    /* border: none; */
 }
 
 .banner-btn a:hover {
@@ -153,8 +155,9 @@ body {
 }
 
 .banner-btn a:hover figure {
-    background-image: linear-gradient(#eff2e71a, #CAFF3300);
-    border: #CAFF33;
+    /* background-image: linear-gradient(#eff2e71a, #CAFF3300); */
+    /* border: #CAFF33; */
+    border: black;
 }
 
 .banner-btn a:hover figure img {
@@ -195,13 +198,15 @@ body {
 }
 
 .banner-details-txt p:after {
-    top: 50%;
+    top: 76%;
     width: 3px;
     left: -21px;
     content: "";
-    height: 80px;
+    height: 100px;
     position: absolute;
     transform: translateY(-50%);
+    background-color: transparent;
+    bottom: 10%;
 }
 
 .banner-details-txt {
@@ -222,13 +227,13 @@ body {
     font-weight: 700;
     line-height: 60px;
     margin-bottom: 8px;
-    color: var(--white-color);
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
 .banner-static-txt span {
     font-size: 16px;
-    color: #d4dffb;
+    color:black;
 }
 
 .banner-static-txt span:nth-child(2) {
@@ -2594,6 +2599,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 75px;
     height: 75px;
 }
+.coding_icon_2 {
+
+    width: 55px;
+    height: 53px;
+    /* filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); */
+}
 
 .footer_logo {
 
@@ -2662,6 +2673,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 100%;
     animation: rotateSlides 9s infinite;
   }
+
+  /* .text{
+
+    position: absolute;
+    top: 50%;
+  } */
   
   @keyframes rotateSlides {
     0% { opacity: 0; transform: rotateY(0deg); }

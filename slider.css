@@ -26,6 +26,7 @@
     transform-style: preserve-3d;
     transform: perspective(1000px) rotateY(0deg); /* Starts from the initial front-facing view */
     transition: transform 1s ease-in-out;
+    /* transform: rotateX(-2deg); */
 }
 .banner .slider .item {
     position: absolute;
@@ -79,7 +80,7 @@
     opacity: 1; /* Increases opacity on hover */
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .banner .slider {
         width: 300px;
         height: 300px;
@@ -101,7 +102,7 @@
         height: 100px;
         transform: rotateY(calc(var(--position) * 360deg / var(--quantity))) translateZ(140px) translateX(-50%) translateY(-50%);
     }
-}
+} */
 
 
 .banner .content{
@@ -154,45 +155,48 @@
     z-index: 1;
 }
 @media screen and (max-width: 1023px) {
-    .banner .slider{
-        width: 160px;
-        height: 200px;
-        left: calc(50% - 80px);
+    .banner {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 5%; /* Further reduced gap */
+        padding: 0 5%; /* Add padding to avoid screen edge overflow */
     }
-    .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(300px);
+    .banner .slider {
+        width: 120px; /* Smaller width for mobile */
+        height: 200px; /* Adjusted height for mobile */
+        left: -11%; /* Center horizontally */
+        transform: translateX(-50%); /* Ensure horizontal centering */
     }
-    .banner .content h1{
-        text-align: center;
-        width: 100%;
-        text-shadow: 0 10px 20px #000;
-        font-size: 7em;
+    .banner .slider .item {
+        width: 200px; /* Smaller item width */
+        height: 150px; /* Smaller item height */
+        transform: rotateY(calc(var(--position) * 360deg / var(--quantity)))
+            translateZ(0px); /* Reduce translateZ to shrink radius */
     }
-    .banner .content .author{
-        color: #fff;
-        padding: 20px;
-        text-shadow: 0 10px 20px #000;
-        z-index: 2;
-        max-width: unset;
-        width: 100%;
-        text-align: center;
-        padding: 0 30px;
+    .banner .content h1 {
+        font-size: 4em; /* Smaller font size for mobile */
     }
 }
+
+
 @media screen and (max-width: 767px) {
-    .banner .slider{
-        width: 100px;
-        height: 150px;
-        left: calc(50% - 50px);
+    .banner {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 5%; /* Further reduced gap */
+        padding: 0 5%; /* Add padding to avoid screen edge overflow */
     }
-    .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(180px);
+    .banner .slider {
+        width: 120px; /* Smaller width for mobile */
+        height: 200px; /* Adjusted height for mobile */
+        left: -11%; /* Center horizontally */
+        transform: translateX(-50%); /* Ensure horizontal centering */
     }
-    .banner .content h1{
-        font-size: 5em;
+    .banner .slider .item {
+        width: 200px; /* Smaller item width */
+        height: 150px; /* Smaller item height */
+        transform: rotateY(calc(var(--position) * 360deg / var(--quantity)))
+            translateZ(0px); /* Reduce translateZ to shrink radius */
+    }
+    .banner .content h1 {
+        font-size: 4em; /* Smaller font size for mobile */
     }
 }
